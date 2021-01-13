@@ -1,7 +1,7 @@
 class Main {
   public static void main(String[] args) {
     //Step 1: ask user for firstname
-    
+    String name = Keyboard.getText("Plese enter yiou name");
     //Step 2: ask user for surname
     
     //Step 3: ask user for mothers maiden name
@@ -10,7 +10,9 @@ class Main {
     
     //Step 5: starwarsname = first 3 letter of surname + first 2 letters of first name + " " + first 3 letters of motehrs maiden name + first 2 letters of town you **were born in
 
+    
+
     //Step 6: display "your star wars name is " + starwarsname
-    System.out.println("Your Star Wars name is " + starwarsname);
+    System.out.println("Your Star Wars name is " + name);
   }
 }
