@@ -1,7 +1,7 @@
 class Main {
   public static void main(String[] args) {
     //Step 1: ask user for firstname
-    String name = Keyboard.getText("Plese enter yiou name");
+    String name = "Hodlo Reilo";
     //Step 2: ask user for surname
     
     //Step 3: ask user for mothers maiden name
